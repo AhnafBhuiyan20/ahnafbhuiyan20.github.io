@@ -4,6 +4,7 @@ html,body{
     margin:0;
     padding:0;
 }
+
 section header{
     margin:2rem;
 }
@@ -34,7 +35,7 @@ img{
     height:auto;
 }
 
-nav{
+nav, footer{
     background-color: #ebedf0;
     padding:1rem;
 }
@@ -74,7 +75,7 @@ nav{
     border-radius: 10px;
     padding:1rem;
 }
-.project:hover{
+.project:hover, #skills ul li:hover{
     background: radial-gradient(white,antiquewhite);
 }
 .project *{
@@ -93,6 +94,10 @@ nav{
 
 .center{
     margin:1rem auto;
+}
+
+.text-center{
+    text-align: center;
 }
 
 @media (min-width:576px){
